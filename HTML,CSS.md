@@ -44,4 +44,36 @@ HTML 문서의 기본 구조
 <footer></footer> - 가장 하단에 들어가는 정보를 표기할 때 사용
 <div></div> - 임의의 공간을 만들 때 사용
 
+HTML 태그의 두가지 성격
+Block 요소와 Inline 요소
+1. 줄바꿈 현상
+2. 가로, 세로 배치
+3. 상, 하 배치
+
+Block요소 - y축 정렬 형태로 출력(줄바꿈 현상), 공간을 만들 수 있고, 상하 배치 작업 가능, width, height 설정 가능
+ex) h1~h6, header, footer, nav, article, div, p
+
+Inline요소 - x축 정렬 형태로 출력(한 줄에 출력), 공간을 만들 수 없고, 상하 배치 작업 불가능, width, height 설정 불가능
+ex) a
+
+
+CSS
+Cascading Style Sheet
+1. 정보(HTML)와 디자인(CSS)의 분리
+2. 문서의 레이아웃과 스타일 정의
+3. HTML로 작성된 정보를 꾸며주는 언어
+
+CSS요소
+1. 선택자 - 디자인을 적용할 HTML 영역
+2. 속성 - 어떤 디자인을 적용할지 정의
+3. 속성값 - 어떤 역할을 수행할지 구체적으로 명령, 세미콜론 필수 입력.
+
+CSS 연동 방법 세가지
+1. Inline Style Sheet - HTML 태그 안에 직접 원하는 스타일 적용
+2. Internal Style Sheet - HTML 태그 안에 <style>태그를 넣어서 적용
+3. External Style Sheet - css파일을 따로 만들어서 해당 파일안에서 css입력 후에 <link>태그로 불러오기, html css 각각의 문서 안에서 따로 관리하여 상대적으로 가독성이 높고 유지보수가 쉬움
+
+
+
+
 
