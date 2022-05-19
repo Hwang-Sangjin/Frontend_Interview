@@ -10,6 +10,8 @@ join
 
 toString
 
+toString(n)
+
 Number
 
 reduce
@@ -34,3 +36,4 @@ includes
 
 indexOf
 
+padStart()
