@@ -108,3 +108,76 @@ Heading
 - 페이지 하나 다 h1 하나만 사용 - SEO에 더 적합
 
 Paragraph
+
+<p>
+- 콘텐츠를 문단으로 나누면 페이지의 접근성을 높인다.
+- 스크린 리더 등 보조 기술은 다음 문단으로 넘어갈 수 있는 단축키를 제공함
+- 빈 <p> 요소를 사용해 문단 사이에 여백을 추가하지 말것
+
+Break
+
+<br>
+- html에서는 빈 공백을 다중으로 작성하여도 하나로 표시된다.
+- 그래서 줄 바꿈을 위해서 <br>을 사용한다.
+- 여러개의 <br>을 중첩해서 사용하기 보단 css를 이용한다.
+
+<blockquote>
+<q>
+
+- 둘 다 인용을 다루는 요소
+- blockquote는 block 요소
+- q는 인라인 요소, ""로 구성해준다.
+
+Preformatted
+
+<pre>
+- HTML에 작성한 내용 그대로 표현
+- 고정폭 글꼴을 사용해 렌더링 한다.
+
+Figure
+
+<figure>
+- 독립적인 콘텐츠를 표현
+- figcaption 요소를 이용하여 같이 사용
+
+Horizon Rule
+
+<hr>
+- 가로줄로 표현
+- css를 추가하여 디자인 수정
+
+Abbraviation
+
+<abbr>
+- title 속성을 이용하여 약어 표현
+
+Address
+
+<address>
+- 주소라는 의미를 탐는 태그
+
+Cite
+
+<cite>
+- 인용의 출처를 표시해주는 태그
+
+Bidirectional override
+
+<bdo>
+- dir= "rtl", dir="ltr"로 오른쪽에서 왼쪽으로 표시, 왼쪽에서 오른쪽으로 표시 가능
+
+
+
+
+Forammating
+
+Bold
+<b>
+- 굵은 글씨 요소
+- 요약의 키워드
+- 특별히 중요하지 않지만 굵게 표시하고 싶은 요소
+
+Strong
+<strong>
+- 굵은 글씨 요소
+- 높은 중요도 요소
