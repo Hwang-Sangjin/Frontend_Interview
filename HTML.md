@@ -313,3 +313,71 @@ Article
 Section
 <section>
 - 일반 구획 요소
+
+List
+
+Ordered List
+<ol>
+- 정렬된 목록을 나타냄
+- 보통 숫자 목록으로 표현
+
+-type 속성
+-a - 소문자 알파벳
+-A - 대문자 알파벳
+-i - 소문자 로마 숫자
+-I - 대문자 로마 숫자
+-1 - 숫자, 기본 값
+
+-start 속성
+-시작 시점을 변경할 수 있다.
+
+-reversed 속성
+-사용하면 true, 아니면 false
+
+Unordered List
+<ul>
+-정렬되지 않는 목록 나타냄
+
+List
+<li>
+-value 속성 - 값을 지정해줄 수 있다.
+
+Definition List
+<dl>
+- 설명 목록을 나타냄
+- key, data를 쌍으로 가진 것을 표현
+
+Definition Term
+<dt>
+- 용어를 나타냄
+
+Definition Description
+<dd>
+- 설명을 나타냄
+
+
+Table
+
+Table Row
+<tr>
+
+Table Head
+<th>
+
+Table Data
+<td>
+- colspan - 하나의 col 영역이 아닌 복수의 col 영역을 차지하도록 함
+
+THead
+<thead>
+
+TBody
+<tbody>
+
+TFoot
+<tfoot>
+
+Caption
+<caption>
+- 표의 설명 또는 제목을 나타냄
+- table의 첫번 째 자식이여야함
